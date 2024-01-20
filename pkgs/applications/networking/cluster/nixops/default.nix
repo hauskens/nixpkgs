@@ -13,8 +13,8 @@ let
     nixops-encrypted-links = callPackage ./plugins/nixops-encrypted-links.nix { };
     nixops-gce = callPackage ./plugins/nixops-gce.nix { };
     nixops-hercules-ci = callPackage ./plugins/nixops-hercules-ci.nix { };
-    nixops-hetzner = callPackage ./plugins/nixops-hetzner.nix { };
-    nixops-hetznercloud = callPackage ./plugins/nixops-hetznercloud.nix { };
+    #nixops-hetzner = callPackage ./plugins/nixops-hetzner.nix { };
+    #nixops-hetznercloud = callPackage ./plugins/nixops-hetznercloud.nix { };
     nixops-libvirtd = callPackage ./plugins/nixops-libvirtd.nix { };
     nixops-vbox = callPackage ./plugins/nixops-vbox.nix { };
     nixos-modules-contrib = callPackage ./plugins/nixos-modules-contrib.nix { };
