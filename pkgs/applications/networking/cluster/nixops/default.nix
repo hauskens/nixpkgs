@@ -51,7 +51,7 @@ in lib.mapAttrs
     digitalocean = [ "nixops-digitalocean" ];
     gce          = [ "nixops-gce" ];
     hercules-ci  = [ "nixops-hercules-ci" ];
-    hetzner      = [ "nixops-hetzner" "nixops-hetznercloud" ];
+    #hetzner      = [ "nixops-hetzner" "nixops-hetznercloud" ];
     libvirtd     = [ "nixops-libvirtd" ];
     vbox         = [ "nixops-vbox" ];
     full         = [
@@ -60,8 +60,8 @@ in lib.mapAttrs
       "nixops-encrypted-links"
       "nixops-gce"
       "nixops-hercules-ci"
-      "nixops-hetzner"
-      "nixops-hetznercloud"
+      #"nixops-hetzner"
+      #"nixops-hetznercloud"
       "nixops-libvirtd"
       "nixops-vbox"
     ];
